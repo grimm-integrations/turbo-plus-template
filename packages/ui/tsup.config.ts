@@ -1,13 +1,13 @@
+import reactUseClientPlugIn from "esbuild-react18-useclient";
 import { defineConfig, type Options } from "tsup";
 
 export default defineConfig((options: Options) => ({
-  treeshake: true,
-  splitting: true,
+  format: ["cjs", "esm"],
   entry: ["src/**/*.tsx"],
-  format: ["esm"],
+  sourcemap: false,
   dts: true,
-  minify: true,
   clean: true,
-  external: ["react"],
-  ...options,
+  minify: !options.watch,
+  esbuildPlugins: [reactUseClientPlugIn],
+  legacyOutput: true,
 }));

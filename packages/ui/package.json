@@ -29,10 +29,11 @@
     "tailwind-config": "*",
     "tailwindcss": "^3.2.4",
     "tsconfig": "*",
-    "tsup": "^6.0.1",
+    "tsup": "^7.2.0",
     "typescript": "^5.2.2"
   },
   "dependencies": {
+    "esbuild-react18-useclient": "^1.0.7",
     "lucide-react": "^0.292.0"
   }
 }

@@ -1,5 +1,3 @@
-"use client";
-
 import { Card, Snippet } from "@turboplus/ui";
 import Image from "next/image";
 
