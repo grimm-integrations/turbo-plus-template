@@ -1,5 +1,5 @@
-import reactUseClient from "esbuild-react18-useclient";
 import { defineConfig, type Options } from "tsup";
+import reactUseClient from "esbuild-react18-useclient";
 
 export default defineConfig((options: Options) => ({
   splitting: true,

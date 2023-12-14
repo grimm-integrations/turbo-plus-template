@@ -31,7 +31,7 @@ export default function Home(): JSX.Element {
                 connecting <span className="font-semibold">tools</span>,
                 building <span className="font-semibold">smarter</span>
               </div>
-              <div className="text-xl font-light text-white dark:text-black -mt-1 pl-1">
+              <div className="text-xl font-light text-black  dark:!opacity-100 opacity-50 -mt-1 pl-1">
                 tailwind, storybook and next
               </div>
             </div>

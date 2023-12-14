@@ -4,9 +4,9 @@
   "sideEffects": [
     "**/*.css"
   ],
-  "types": "./dist/index.d.ts",
+  "types": "./dist/index.d.mts",
   "exports": {
-    ".": "./dist",
+    ".": "./dist/index.mjs",
     "./dist/index.css": "./dist/index.css"
   },
   "license": "MIT",
@@ -23,6 +23,7 @@
   "devDependencies": {
     "@types/react": "^18.2.5",
     "autoprefixer": "^10.4.13",
+    "esbuild-react18-useclient": "^1.0.7",
     "eslint-config-custom": "*",
     "postcss": "^8.4.20",
     "react": "^18.2.0",
@@ -33,7 +34,6 @@
     "typescript": "^5.2.2"
   },
   "dependencies": {
-    "esbuild-react18-useclient": "^1.0.7",
     "lucide-react": "^0.292.0"
   }
 }
